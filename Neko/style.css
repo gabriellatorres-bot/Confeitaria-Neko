@@ -1,0 +1,128 @@
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Arial", sans-serif;
+    }
+
+    body {
+      background: #fff7f8;
+      color: #6b4b4b;
+    }
+
+    header {
+      background: #ffd6df;
+      padding: 20px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 3px solid #f5b7c7;
+    }
+
+    .logo {
+      font-size: 25px;
+      font-weight: bold;
+      color: #c75b78;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #7a505b;
+      margin-left: 20px;
+      font-weight: bold;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 80px 20px;
+      background: #fff0f4;
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      color: #c75b78;
+      margin-bottom: 15px;
+    }
+
+    .hero p {
+      font-size: 18px;
+      margin-bottom: 25px;
+    }
+
+    .botao {
+      display: inline-block;
+      background: #e98ba5;
+      color: white;
+      padding: 13px 25px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .botao:hover {
+      background: #c75b78;
+      transform: scale(1.05);
+    }
+
+    .produtos {
+      padding: 60px 8%;
+      text-align: center;
+    }
+
+    .produtos h2 {
+      color: #c75b78;
+      margin-bottom: 35px;
+      font-size: 32px;
+    }
+
+    .cards {
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+      flex-wrap: wrap;
+    }
+
+    .card{
+      background-color: white;
+      width: 250px;
+      padding: 25px;
+      border-radius: 25px;
+      box-shadow: 0 5px 15px #e8cdd3;
+      transition: 0.3s;
+      transform: translateY(-2px)
+      
+    }
+
+    .card:hover {
+      background: #ffee8c;
+       transform: translatey(-8px);
+      
+    }
+
+    .doce {
+      font-size: 60px;
+      margin-bottom: 15px;
+    }
+
+    .card h3 {
+      color: #c75b78;
+      margin-bottom: 10px;
+    }
+
+    .preco {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+      color: #e27691;
+      font-size: 18px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      background: #ffd6df;
+      margin-top: 30px;
+    }
+  
